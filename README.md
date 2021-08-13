@@ -1,24 +1,19 @@
-# README
+# Expense Tracker Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple resful api purposely built for expense tracker js app (https://github.com/ezravalmores/expense-tracker)
 
-Things you may want to cover:
+## Tech Stack
 
-* Ruby version
+This is using Ruby on Rails.
 
-* System dependencies
+This is using postgresql for Database.
 
-* Configuration
+## How to run locally
 
-* Database creation
+You must have a ruby version `2.7.1` or higher.
 
-* Database initialization
+Install dependencies. `bundle install`
 
-* How to run the test suite
+Create Db `bundle exec rake db:create`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run migrations `bundle exec rake db:migrate`
