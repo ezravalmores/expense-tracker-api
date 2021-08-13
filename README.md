@@ -17,3 +17,7 @@ Install dependencies. `bundle install`
 Create Db `bundle exec rake db:create`
 
 Run migrations `bundle exec rake db:migrate`
+
+For it to work smootly connected to the React javascript app mentioned above, run it in port 3000 or simple the default port.
+
+`rails s -p 3000`
